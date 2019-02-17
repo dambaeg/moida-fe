@@ -2,16 +2,16 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import { BrowserRouter } from "react-router-dom";
+
 import App from "App";
 
 import * as serviceWorker from "./serviceWorker";
 
-const Index = () => (
+ReactDOM.render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>
+  </BrowserRouter>,
+  document.getElementById("root")
 );
-
-ReactDOM.render(<Index />, document.getElementById("root"));
 
 serviceWorker.register();
