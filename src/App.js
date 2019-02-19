@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import { Route, Switch } from "react-router-dom";
 
 import { Home } from "pages";
+import { Header } from "organisms";
 
 const App = () => (
   <>
@@ -14,6 +15,7 @@ const App = () => (
         content="다른 사람들과 공유하고 싶을 때, 모이다에서 모여요."
       />
     </Helmet>
+    <Header />
     <Switch>
       <Route exact path="/" component={Home} />
     </Switch>

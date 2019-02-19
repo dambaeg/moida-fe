@@ -6,7 +6,7 @@ import App from "App";
 import { Home } from "pages";
 
 describe("App", () => {
-  it("renders without crashing", () => {
+  it("renders without crash", () => {
     // When
     const wrapper = mount(
       <MemoryRouter initialEntries={["/"]}>

@@ -4,7 +4,7 @@ import { mount } from "enzyme";
 import Home from "./Home";
 
 describe("Home", () => {
-  it("renders without crashing", () => {
+  it("renders without crash", () => {
     // When
     const wrapper = mount(<Home />);
 
