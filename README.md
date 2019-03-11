@@ -1,8 +1,8 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-# moida-fe
+# write-again-fe
 
-모이다 프로젝트 프론트엔드
+글또 프로젝트 프론트엔드
 
 ---
 
