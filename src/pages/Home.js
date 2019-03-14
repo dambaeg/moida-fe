@@ -1,7 +1,11 @@
 import React from "react";
 
-const Home = () => {
-  return <div>Test</div>;
-};
+import { PostList } from "organisms";
+
+const Home = () => (
+  <div style={{ margin: "20px" }}>
+    <PostList />
+  </div>
+);
 
 export default Home;

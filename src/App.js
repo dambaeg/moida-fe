@@ -6,6 +6,8 @@ import { Route, Switch } from "react-router-dom";
 import { Home } from "pages";
 import { Header } from "organisms";
 
+import "Global.scss";
+
 const App = () => (
   <>
     <Helmet>
