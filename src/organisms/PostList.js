@@ -1,5 +1,5 @@
 import React from "react";
-import { List, Avatar, Icon } from "antd";
+import { List, Avatar, Icon, Tag } from "antd";
 
 export default function PostList() {
   return (
@@ -33,7 +33,14 @@ export default function PostList() {
           }
         >
           <List.Item.Meta
-            avatar={<Avatar src={item.avatar} />}
+            avatar={
+              <>
+                <Tag color="#f50">프론트</Tag>
+                <Tag color="#2db7f5">데이터분석머신러닝</Tag>
+                <Tag color="#87d068">데이터엔지니어링</Tag>
+                <Tag color="#108ee9">백엔드안드로이드</Tag>
+              </>
+            }
             title={<a href={item.href}>{item.title}</a>}
             description={item.description}
           />
